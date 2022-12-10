@@ -98,3 +98,5 @@
   1. **Allow**: allow the packet to pass.
   2. **Drop**: drops the packet without notify the source.
   3. **Deny**: drops the packet but notify the source.
+* packet filtering just inspect the **header** not the payload.
+* application layer exploit can be XSS,Buffer overflow,SQL injection and more.
