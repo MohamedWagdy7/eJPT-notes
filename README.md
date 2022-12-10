@@ -85,3 +85,5 @@
 * 0 - 1023 for the most common proccess
 ### Firewalls and Network Defense
 * There are many devices to protect network , these devices use **different techniques** and work on **different layers** to perform **access control** and **attack detection and prevention**
+* **Firewalls** are specialized software modules running on a computer or network device, they filter coming in and out packets.
+* Firewalls can work on different layers , thus providing different features and protections.
