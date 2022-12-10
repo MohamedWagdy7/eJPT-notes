@@ -44,8 +44,13 @@
 * **Hubs and Switches** are devices forward the packets into a local network and they works with MAC(6 bytes).
 * IP is used to identify the host in the network layer but MAC is used to identify the network card in physical layer.
 * to discover MAC use `ipconfig /all`.
-* if a device A wants to communicate with device B in another network , A will make a packet with header contain
-  * IP address of B
-  * MAC of the router
+* if a device A wants to communicate with device B in another network , A will send a packet to the router with header contain
+  * destination IP address of B
+  * destination MAC of the router
   * source IP of A
   * source MAC of A
+<br>**then the router will rewrite the header with**
+  * destination Mac address B.
+  * source MAC will be the router.
+* Switches also have forwarding table
+* to segment the network with switch use VLANs
