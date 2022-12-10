@@ -94,3 +94,7 @@
   * Source Port
   * Destination Port
 * You can run packet filter on home DSL routers.
+* Packet filter inspect the head of each packet to choose how to treat it, the most common actions:
+  1. **Allow**: allow the packet to pass.
+  2. **Drop**: drops the packet without notify the source.
+  3. **Deny**: drops the packet but notify the source.
