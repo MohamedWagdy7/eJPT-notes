@@ -68,8 +68,9 @@
 ### TCP - UDP
 * **T**ransimission **C**ontrol **P**rotocol and **U**ser **D**atagram **P**rotocol are the most common transefer protocols in internet.
 * the computer network is **unreliable** which means that some packet can be lost.
-<br>
-| Syntax | Description |
-| --- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+#### TCP advantages
+1. Connection Oriented , which means it establishes connection before packet transefer.
+2. Guarntees packet delivery
+#### UDP advantages
+1. Higher Throughout (Packets sent per second)
+### Ports
