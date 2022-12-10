@@ -93,3 +93,4 @@
   * Protocol
   * Source Port
   * Destination Port
+* You can run packet filter on home DSL routers.
