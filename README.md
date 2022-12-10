@@ -2,7 +2,7 @@
 ## 1.Introduction
 ## 2.Networking
 * The goal of networking is to transefer **Packets**
-* **Packets - Datagrames ** are stream of bits works as electric signals in physical medium ,this medium may be wire in case of LAN or the air in case of WiFi,carrieng the information to be transefered.
+* **Packets - Datagrames** are stream of bits works as electric signals in physical medium ,this medium may be wire in case of LAN or the air in case of WiFi,carrieng the information to be transefered.
 * every packet are devided into **Header and Payload**
 * **Header** ensures that the reciver will recive and deal with the data correctly.
 * **Payload** is the actual data to be transefered.
