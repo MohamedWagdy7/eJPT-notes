@@ -66,4 +66,14 @@
 * To see ur ARP cache use `arp -a`
 <br>**Hubs** is devices used in send packet to all hosts in the network and don't have forwarding table or cache, so it's rarely use.
 ### TCP - UDP
-**T**ransimission **C**ontrol **P**rotocol and **U**ser **D**atagram **P**rotocol are the most common transefer protocols in internet.
+* **T**ransimission **C**ontrol **P**rotocol and **U**ser **D**atagram **P**rotocol are the most common transefer protocols in internet.
+* the computer network is **unreliable** which means that some packet can be lost.
+#### TCP Advantages
+1. Guarantees delivery of packets
+2. it's **Connection Oriented* which mean it establish connection before send the packets.
+* TCP is the most used but UDP is faster than TCP.
+|TCP|UDP|
+|---|---|
+|Lower throughout| Higher Throughout|
+|Guarntees|doesn't|
+|Connection Oriented|Connectionless|
