@@ -63,5 +63,5 @@
 2. every host in the network receive the request
 3. B replies with ARP reply , telling A its MAC address.
 4. A will save B MAC in the ARP cache.
-* To see ur ARP cache use `arp -a`<br>
-**Hubs** is devices used in send packet to all hosts in the network and don't have forwarding table or cache, so it's rarely use.
+* To see ur ARP cache use `arp -a`
+<br>**Hubs** is devices used in send packet to all hosts in the network and don't have forwarding table or cache, so it's rarely use.
