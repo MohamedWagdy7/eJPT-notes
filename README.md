@@ -121,4 +121,6 @@
 * **I**ntrusion **P**revention **S**ystems ddetect and drop millicious requests when detected.
 ## Spot on Obstacle
 * To know if the company has a firewall-like mechanism:
-  * if the firewall is in place , when u sent TCP SYN the reply will be TCP RST/ACK instead of TCP SYN/ACK
+  * if the firewall is in place , when u sent TCP SYN the reply will be TCP RST/ACK instead of TCP SYN/ACK or there is no reply.
+## NAT and Masquerading
+* **N**etwork **A**dress **T**ranslation can be detected by firewalls.
