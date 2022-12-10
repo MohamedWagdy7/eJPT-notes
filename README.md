@@ -29,3 +29,13 @@
 * 0.0.0.0 - 0.255.255.255 (representing 'this' network)
 * 127.0.0.0 - 127.255.255.255 (representing local host e.g.,ur computer)
 * 192.168.0.0 - 192.168.255.255 (reserved for private network)
+#### IP/Mask
+* **used to fully identify the host** 
+* to get the network part from the ip and the mask perform bitwise and between the ip and the mask or use the [subnet calculator](https://www.ipaddressguide.com/cidr).
+### Routing
+* is finding the best path to reach the host.
+* **Routers** are devices connected to different networks and used to transefer datagrams between two different networks.
+* to find the best path the router look to the routing table which contain the interface and ip.
+* the router send the packet to the default address(0.0.0.0) if it doesn't know the host.
+* if there are two paths to the same host , the path with lowest metric is selected.
+* to see your routing table enter `route print` in cmd.
