@@ -88,8 +88,8 @@
 * **Firewalls** are specialized software modules running on a computer or network device, they filter coming in and out packets.
 * Firewalls can work on different layers , thus providing different features and protections.
 * firewall take the dicision to filter the packet dependent on:
- * Source IP 
- * Destination IP
- * Protocol
- * Source Port
- * Destination Port
+  * Source IP 
+  * Destination IP
+  * Protocol
+  * Source Port
+  * Destination Port
