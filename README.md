@@ -117,3 +117,5 @@
       * sensors are placed on router or on high instrusion risk like DMZ(Servers Zone).
   2. **H**ost **I**nstrusion **D**etection **S**ystems (HIDS)
       * monitor application logs,file system changes and OS changes by sensors.
+### IPS
+* **I**ntrusion **P**revention **S**ystems ddetect and drop millicious requests when detected.
