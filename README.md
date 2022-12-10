@@ -55,3 +55,12 @@
 * Switches also have forwarding table
 * to segment the network with switch use VLANs
 * switch store the table which contains interface,MAC and TTL in RAM. 
+* Time To Live (TTL) determines how long an entry stay in the table.
+* switches learn new MACs dynamicly while routers use complex protocols to do that.
+### Address Resolution Protocol
+* when a device A want to send packet to another device B and he know only his IP:
+1. A make ARP request containing the IP address of b and FF:FF:FF:FF:FF:FF as destination MAC address 
+2. every host in the network receive the request
+3. B replies with ARP reply , telling A its MAC address.
+4. A will save B MAC in the ARP cache.
+* To see ur ARP cache use `arp -a`
