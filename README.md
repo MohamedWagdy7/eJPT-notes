@@ -39,3 +39,13 @@
 * the router send the packet to the default address(0.0.0.0) if it doesn't know the host.
 * if there are two paths to the same host , the path with lowest metric is selected.
 * to see your routing table enter `route print` in cmd.
+### Link Layer devices and protocols
+* Packet forwarding happens in the lowest layer (Link Layer) with TCP or UDP.
+* **Hubs and Switches** are devices forward the packets into a local network and they works with MAC(6 bytes).
+* IP is used to identify the host in the network layer but MAC is used to identify the network card in physical layer.
+* to discover MAC use `ipconfig /all`.
+* if a device A wants to communicate with device B in another network , A will make a packet with header contain
+  * IP address of B
+  * MAC of the router
+  * source IP of A
+  * source MAC of A
