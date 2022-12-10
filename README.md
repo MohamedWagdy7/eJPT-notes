@@ -87,3 +87,9 @@
 * There are many devices to protect network , these devices use **different techniques** and work on **different layers** to perform **access control** and **attack detection and prevention**
 * **Firewalls** are specialized software modules running on a computer or network device, they filter coming in and out packets.
 * Firewalls can work on different layers , thus providing different features and protections.
+* firewall take the dicision to filter the packet dependent on:
+ * Source IP 
+ * Destination IP
+ * Protocol
+ * Source Port
+ * Destination Port
