@@ -68,9 +68,18 @@
 ### TCP - UDP
 * **T**ransimission **C**ontrol **P**rotocol and **U**ser **D**atagram **P**rotocol are the most common transefer protocols in internet.
 * the computer network is **unreliable** which means that some packet can be lost.
+* to establish connection using TCP three steps happend : Three-way handshake (SYN,SYN+ACK,ACK)
 #### TCP advantages
 1. Connection Oriented , which means it establishes connection before packet transefer.
 2. Guarntees packet delivery
 #### UDP advantages
 1. Higher Throughout (Packets sent per second)
 ### Ports
+* if u want to identify a proccess on a network you must know IP:Port pair.
+* Different proccesses of the same app use different ports.
+* **daemon** is a program runs a service on someport.
+* system admin may change the dafault ports in order to make it hard for the hackers
+* to check ur daemons use `netstat -ano` or use TCPView
+
+#### Reserved Ports
+* 0 - 1023 for the most common proccess
