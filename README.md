@@ -54,3 +54,4 @@
   * source MAC will be the router.
 * Switches also have forwarding table
 * to segment the network with switch use VLANs
+* switch store the table which contains interface,MAC and TTL in RAM. 
