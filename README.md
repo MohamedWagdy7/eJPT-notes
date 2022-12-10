@@ -69,8 +69,7 @@
 * **T**ransimission **C**ontrol **P**rotocol and **U**ser **D**atagram **P**rotocol are the most common transefer protocols in internet.
 * the computer network is **unreliable** which means that some packet can be lost.
 <br>
-|TCP|UDP|
-|---|---|
-|Lower throughout| Higher Throughout|
-|Guarntees|doesn't|
-|Connection Oriented|Connectionless|
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
