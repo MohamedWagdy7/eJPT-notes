@@ -84,4 +84,4 @@
 #### Reserved Ports
 * 0 - 1023 for the most common proccess
 ### Firewalls and Network Defense
-* There are many devices to protect network , these devices use **different techniques** and work on **different layers** to perform **access control** , **attack detection** and **prevention*
+* There are many devices to protect network , these devices use **different techniques** and work on **different layers** to perform **access control** and **attack detection and prevention**
