@@ -105,7 +105,7 @@
   1. Drop peer-to-peer application packet
   2. Prevent users from visiting a site.
 * installed on seperated hardware
-### IDS
+#### IDS
 * stands for **I**nstrusions **d**etecting **S**ystems
 * detect intrusion not traffic.
 * checks for attack vectors like SQL Injection , buffer overflow , port scans and ping sweeps.
@@ -117,10 +117,10 @@
       * sensors are placed on router or on high instrusion risk like DMZ(Servers Zone).
   2. **H**ost **I**nstrusion **D**etection **S**ystems (HIDS)
       * monitor application logs,file system changes and OS changes by sensors.
-### IPS
+#### IPS
 * **I**ntrusion **P**revention **S**ystems ddetect and drop millicious requests when detected.
-### Spot on Obstacle
+#### Spot on Obstacle
 * To know if the company has a firewall-like mechanism:
   * if the firewall is in place , when u sent TCP SYN the reply will be TCP RST/ACK instead of TCP SYN/ACK or there is no reply.
-### NAT and Masquerading
+#### NAT and Masquerading
 * **N**etwork **A**dress **T**ranslation can be detected by firewalls.
