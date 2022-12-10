@@ -114,5 +114,5 @@
 * there are false positives. it happened when legit traffic is flagged as millicious.
 * IDS is devided into:
   1. **N**etwork **I**nstrusion **D**etection **S**ystems (NIDS)
-    * inspect traffic on a network by mean of sensors which are usually placed on router or on high instrusion risk like DMZ.
+      * inspect traffic on a network by mean of sensors which are usually placed on router or on high instrusion risk like DMZ.
   2. **H**ost **I**nstrusion **D**etection **S**ystems (HIDS)
