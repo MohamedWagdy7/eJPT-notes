@@ -139,4 +139,7 @@
       - Try to construct a few possible email formats and apply them to each name/surname pair
       - Try to send an email that does not alert potential victims (e.g., do not put a „phishing test” in subject, but choose something tricky like try to pretend it is just an advertisement)
 ### subdomain enumration
-
+#### Passive enumration (without interact the target):
+1. site: company.com in the search
+2. dnsdumpster.com , Bing , Virustotal
+3. sublist3r ( be aware when using it )
