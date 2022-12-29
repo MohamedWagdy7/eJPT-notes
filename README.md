@@ -133,8 +133,7 @@
 5. if it doesn''t exist try to guess the the email pattern:
    1. name.surname@company.com
    2. surname.name@company.com
-   3. [first letter of the name]surname@company.com
-   You can try to first:
-     • Collect a reasonable number of employee data (name/surname)
-     • Try to construct a few possible email formats and apply them to each name/surname pair
-     • Try to send an email that does not alert potential victims (e.g., do not put a „phishing test” in subject, but choose something tricky like try to pretend it is just an advertisement)
+   3. [first letter of the name]surname@company.com , You can try to:
+      - Collect a reasonable number of employee data (name/surname)
+      - Try to construct a few possible email formats and apply them to each name/surname pair
+      - Try to send an email that does not alert potential victims (e.g., do not put a „phishing test” in subject, but choose something tricky like try to pretend it is just an advertisement)
