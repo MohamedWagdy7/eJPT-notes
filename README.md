@@ -143,3 +143,11 @@
 1. site: company.com in the search
 2. dnsdumpster.com , Bing , Virustotal
 3. sublist3r ( be aware when using it )
+## 10. Footprinting and Scanning
+### Mapping network
+1. Get all hosts.
+2. ping sweep
+   - fping
+   - nmap
+3. os fingerprint (nmap online and p0f offline)
+4. port scanning (nmap - masscan)
