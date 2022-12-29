@@ -126,14 +126,17 @@
 * **N**etwork **A**dress **T**ranslation can be detected by firewalls.
 
 ## 9. Information Gathering
-1. by using **LinkedIn** you can get inforamtion like phone numbers , real names, email addresses and maybe integrated accounts.
-2. **CrunchBase** is an IT startup database where you can find detailed information about founders, investors, employees, buyouts, and acquisitions.
-3. You can use **whois** database to find information like (owner name, street address, email address and technical contacts. use it on linux by `whois` cmd.
-4. don't forget to navigate the website of the target.
-5. if it doesn''t exist try to guess the the email pattern:
+### Open source inteligence
+1. using **LinkedIn**
+2. using **CrunchBase**
+3. **whois** database. use it on linux by `whois` cmd.
+4. navigate the website of the target.
+5. guess the the email pattern:
    1. name.surname@company.com
    2. surname.name@company.com
    3. [first letter of the name]surname@company.com , You can try to:
       - Collect a reasonable number of employee data (name/surname)
       - Try to construct a few possible email formats and apply them to each name/surname pair
       - Try to send an email that does not alert potential victims (e.g., do not put a „phishing test” in subject, but choose something tricky like try to pretend it is just an advertisement)
+### subdomain enumration
+
