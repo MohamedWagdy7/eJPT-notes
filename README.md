@@ -151,3 +151,12 @@
    - nmap
 3. os fingerprint (nmap online and p0f offline)
 4. port scanning (nmap - masscan)
+## 11. vulnerability assessment
+1. OpenVAS
+2. nessus
+## 12. Web Apps attacks
+### manually fingerprint
+#### banner grabbing
+1. netcat(http)
+2. openssl(https)
+3. httprint (more detailed)
