@@ -1,6 +1,6 @@
 # eJPT-notes
-## 1.Introduction
-## 2.Networking
+## 1. Introduction
+## 2. Networking
 * The goal of networking is to transefer **Packets**
 * **Packets - Datagrames** are stream of bits works as electric signals in physical medium ,this medium may be wire in case of LAN or the air in case of WiFi,carrieng the information to be transefered.
 * every packet are devided into **Header and Payload**
@@ -124,3 +124,17 @@
   * if the firewall is in place , when u sent TCP SYN the reply will be TCP RST/ACK instead of TCP SYN/ACK or there is no reply.
 #### NAT and Masquerading
 * **N**etwork **A**dress **T**ranslation can be detected by firewalls.
+
+## 9. Information Gathering
+1. by using **LinkedIn** you can get inforamtion like phone numbers , real names, email addresses and maybe integrated accounts.
+2. **CrunchBase** is an IT startup database where you can find detailed information about founders, investors, employees, buyouts, and acquisitions.
+3. You can use **whois** database to find information like (owner name, street address, email address and technical contacts. use it on linux by `whois` cmd.
+4. don't forget to navigate the website of the target.
+5. if it doesn''t exist try to guess the the email pattern:
+   1. name.surname@company.com
+   2. surname.name@company.com
+   3. [first letter of the name]surname@company.com
+   You can try to first:
+     • Collect a reasonable number of employee data (name/surname)
+     • Try to construct a few possible email formats and apply them to each name/surname pair
+     • Try to send an email that does not alert potential victims (e.g., do not put a „phishing test” in subject, but choose something tricky like try to pretend it is just an advertisement)
