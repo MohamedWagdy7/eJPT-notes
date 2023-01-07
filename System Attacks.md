@@ -38,8 +38,11 @@ a small device installed between the keyboard and the computer.
 ##### 2. Rootkit Key-logger
 working at the kernel level by taking all OS APIs to the logs file.
 The keylogger logs the key pressed and then it calls the original function of the operating system.
-### 11. Botnet
+### 11. Bots
+are small pieces of software that get installed on millions of Internet-connected machines to perform Denial of Service.
+These Bots are commanded remotely by a so-called Command and Control server. The C&C server can instruct thousands or even millions of bots to perform a given operation simultaneously.
 ### 12. Ransomware
+software that encrypts a computer or smartphone files with a secret key, then asks the victim for a ransom to give them the content back.
 ### 13. Data-Stealing Malware
 ### 14. Worm
 
