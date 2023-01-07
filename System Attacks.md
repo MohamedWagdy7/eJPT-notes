@@ -46,3 +46,4 @@ software that encrypts a computer or smartphone files with a secret key, then as
 a software built for stealing data. it's tailored for a specifiec environment.
 ### 14. Worm
 spread over the network by exploiting system vulnerabilities.
+# Password Attacks
