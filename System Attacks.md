@@ -1,5 +1,4 @@
-# System Attacks
-## Malware
+# Malware
 **Malware** ,short for **Mal**icious soft**ware**, is any software used to misuse computer systems with the intent to:
 1. Cause Denial of Service (DoS)
 2. Spy on user activity
