@@ -27,7 +27,17 @@ it can be spyware , adware or both,
 ### 9. Dialer
 software ,installed on smartphones, try to make dial-ups from victims' mobiles and take money. 
 ### 10. Key-logger
-
+is a software record all keystrokes on victim's machine.
+#### Key-logger:
+1. records all keystrokes.
+2. record the window where the user is tayping.
+3. save the records in log file and send it to the attacker server so it subjected to the same restrictions of the backdoor.
+#### there are also:
+##### 1. Hardware Key-logger
+a small device installed between the keyboard and the computer.
+##### 2. Rootkit Key-logger
+working at the kernel level by taking all OS APIs to the logs file.
+The keylogger logs the key pressed and then it calls the original function of the operating system.
 ### 11. Botnet
 ### 12. Ransomware
 ### 13. Data-Stealing Malware
