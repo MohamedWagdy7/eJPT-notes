@@ -44,6 +44,6 @@ These Bots are commanded remotely by a so-called Command and Control server. The
 ### 12. Ransomware
 software that encrypts a computer or smartphone files with a secret key, then asks the victim for a ransom to give them the content back.
 ### 13. Data-Stealing Malware
+a software built for stealing data. it's tailored for a specifiec environment.
 ### 14. Worm
-
-
+spread over the network by exploiting system vulnerabilities.
