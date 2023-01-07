@@ -64,3 +64,14 @@ use `-rules` to mangle **john**
 you can find repo of most common password by **OWASP** [here](https://github.com/danielmiessler/SecLists/tree/master/Passwords) or use `apt-get install seclists` if you use Linux.
 you can reduce the time of cracking passwords by using **Rainbow Tables**.
 **ophcrack** is a great tool to do rainbow table on windows devices.
+# Buffer overflow
+- forcing a piece of software or a routine of the operating system to behave differently from what the author of it design.
+- it lead to:
+    - rempte code execution
+    - Denial of Service
+    - Bypass system security
+    - previlige escalation
+- **Buffer** is an area in the RAM (Stored in the stack) have finite size and reserved for temporary data such as:
+    - server banner
+    - user input
+- if the programmer doesn't limit the buffer,an attacker can take control over program execution flow
