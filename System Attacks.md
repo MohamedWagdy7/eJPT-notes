@@ -55,6 +55,10 @@ is the way of trying each possible password until reach the right one.
 it start cycling over lowercase , uppercase , number, then symbols until reach the password
 If the password is longer than two characters, then the algorithm moves to three characters long, then four and so on until a valid password
 #### brute force tools
-1. John the Ripper ( it's so fast because using the mean of parallelization)
+##### 1. John the Ripper ( it's so fast because using the mean of parallelization)
 --> After attack we stole the password files of Linux machine `/etc/passwd/` and `/etc/shadow/`
+this tool need the usernames and the passwords to be in the same file so we need to use unshadow utility `unshadow usernames passwd > crackme`
 ### 2. Dictionary attacks
+try each password in the most common passwords list.
+use `-rules` to mangle **john**
+you can find repo of most common password by **OWASP** [here](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
