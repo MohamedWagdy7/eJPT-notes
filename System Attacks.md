@@ -61,4 +61,6 @@ this tool need the usernames and the passwords to be in the same file so we need
 ### 2. Dictionary attacks
 try each password in the most common passwords list.
 use `-rules` to mangle **john**
-you can find repo of most common password by **OWASP** [here](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
+you can find repo of most common password by **OWASP** [here](https://github.com/danielmiessler/SecLists/tree/master/Passwords) or use `apt-get install seclists` if you use Linux.
+you can reduce the time of cracking passwords by using **Rainbow Tables**.
+**ophcrack** is a great tool to do rainbow table on windows devices.
