@@ -47,3 +47,14 @@ a software built for stealing data. it's tailored for a specifiec environment.
 ### 14. Worm
 spread over the network by exploiting system vulnerabilities.
 # Password Attacks
+passwords are stored in database in **one way encrypted**( Hash ) form to protect the from internal users.
+**Password Cracking** is the proccess of recover password from its hash.
+## Password Cracking ways
+### 1. Brute Force Attack
+is the way of trying each possible password until reach the right one.
+it start cycling over lowercase , uppercase , number, then symbols until reach the password
+If the password is longer than two characters, then the algorithm moves to three characters long, then four and so on until a valid password
+#### brute force tools
+1. John the Ripper ( it's so fast because using the mean of parallelization)
+--> After attack we stole the password files of Linux machine `/etc/passwd/` and `/etc/shadow/`
+### 2. Dictionary attacks
