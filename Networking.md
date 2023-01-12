@@ -1,4 +1,5 @@
 # Networking
+* **Protocols**: the language by which the machines communicate.
 * The goal of networking is to transefer **Packets**
 * **Packets - Datagrames** are stream of bits works as electric signals in physical medium ,this medium may be wire in case of LAN or the air in case of WiFi,carrieng the information to be transefered.
 * every packet are devided into **Header and Payload**
@@ -21,7 +22,7 @@
 * The receiver do the **reverse of the encapsulation**
 * **the actual model is called TCP/IP and has 4 layers (Application,Transport,Network and DataLink).**<br>
 ## IP
-* **Internet Protocol** is the protocol used in network layer for identify the different devices.
+* **Internet Protocol** is the protocol network layer for delivering packets and identify the different devices.
 * IP has two versions IPv4 (Consist of four bytes) and IPv6(Consist of 6 bytes)
 ### Reserved IP
 * 0.0.0.0 - 0.255.255.255 (representing 'this' network)
@@ -31,8 +32,8 @@
 * **used to fully identify the host** 
 * to get the network part from the ip and the mask perform bitwise and between the ip and the mask or use the [subnet calculator](https://www.ipaddressguide.com/cidr).
 ## Routing
+* **Routers**: devices connected to different networks used to forward datagrams between different networks.
 * is finding the best path to reach the host.
-* **Routers** are devices connected to different networks and used to transefer datagrams between different networks.
 * to find the best path the router look to the routing table which contain the interface and ip.
 * the router send the packet to the default address(0.0.0.0) if it doesn't know the host.
 * if there are two paths to the same host , the path with lowest metric is selected.
@@ -55,6 +56,7 @@
 * switch store the table which contains interface,MAC and TTL in RAM. 
 * Time To Live (TTL) determines how long an entry stay in the table.
 * switches learn new MACs dynamicly while routers use complex protocols to do that.
+* the header contain the MAC address of the **next hop** and the IP of the **destination host**
 ## Address Resolution Protocol
 * when a device A want to send packet to another device B and he know only his IP:
 1. A make ARP request containing the IP address of b and FF:FF:FF:FF:FF:FF as destination MAC address 
@@ -81,6 +83,7 @@
 
 ### Reserved Ports
 * 0 - 1023 for the most common proccess
+* u can use 'netstat -tunp` to listen to all ports
 ## Firewalls and Network Defense
 * There are many devices to protect network , these devices use **different techniques** and work on **different layers** to perform **access control** and **attack detection and prevention**
 * **Firewalls** are specialized software modules running on a computer or network device, they filter coming in and out packets.
